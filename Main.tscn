@@ -222,6 +222,11 @@ fov = 100.0
 far = 197.82
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D/Node3D/Head"]
+visible = false
 extra_cull_margin = 16384.0
 mesh = SubResource("QuadMesh_6263t")
 surface_material_override/0 = SubResource("ShaderMaterial_0le0x")
+
+[node name="DebugInfo" type="Label" parent="CharacterBody3D"]
+offset_right = 40.0
+offset_bottom = 23.0
